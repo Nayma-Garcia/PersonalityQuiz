@@ -1,0 +1,17 @@
+<html>
+<link rel= "stylesheet" href="style.css">
+
+<head>
+<script>
+function readfile() {
+    document.getElementById('file').contentDocument;
+}
+</script>
+</head>
+<body style="background-color:powderblue;">
+<h1>Leaderboard!</h1>
+<p>This is a list of previous players and their placement</p>
+<iframe id='file' src = 'scores.txt' onload='readfile()'></iframe>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+   <aside>
+      <h3>BECOME A PEER MENTOR TODAY!</h3>
+      <h4>APPLY TODAY AT</h4>
+      <h5>PEERMENTORSARECOOL.COM</h5>
+     
+   </aside>
+   
+   
+   <!--ASIDES ON THE RIGHT-->
+   <aside2>
+      <h3>BECOME A PEER MENTOR TODAY!</h3>
+      <h4>APPLY TODAY AT </h4>
+      <h5>PEERMENTORSARECOOL.COM</h5>
+   </aside2>
+<head>
+   <link rel="stylesheet" href="style.css">
+
+   
+</head>
+
+
+<body style="background-color: lightseagreen;">
+
+   <h1>RESULTS</h1>
+   <a href="leaderboard.html">
+      <marquee behavior="scroll" direction="left">Leader Board!</marquee>
+   </a>
+   
+   
+   <h1>
+      Your score: <span id="score"></span>
+   </h1>
+  
+   <h5>Chocolates are active people who love the outdoors. they are confident and entitled. They stand for their beliefes and protect what matters to them.</h5>
+   <h5>Vanilla people are calm souls. They enjoy taking life easy and enjoying what interests them. They are empathetic, quiet, and supportive.</h5>
+   <h5>Strawberries are fun lovers. A happy person that is always down to help others. They are great companions due to their positive natures.</h5>
+   <h5>Pistachio's are a bit out there. They go against the norms and are not afraid to be themselves. They are loyal, and very caring about what they love.</h5>
+
+   <table>
+      <tr>
+         <th> Range</th>
+         <th>Flavor</th>
+      
+      </tr>
+      <tr>
+         <td>10-18</td>
+         <td> Chocolate</td>
+            
+      </tr>
+      
+        
+
+      <tr>
+         <td>19-26</td>
+         <td> Vanilla</td>
+         
+         
+      </tr>
+
+ 
+      <tr>
+         <td>27-34</td>
+         <td>Strawberry</td>
+   
+      </tr>
+
+
+      <tr>
+         <td>35-40</td>
+         <td>Pistachio </td>
+      </tr>
+
+  
+
+   </table>
+   
+
+
+</body>
+
+
+<script>
+   document.getElementById("score").innerHTML = sessionStorage.getItem("Score");
+</script>
+
+</html>
